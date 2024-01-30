@@ -11,7 +11,7 @@ import java.util.List;
 import java.util.Optional;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:3000") // Replace with your React app's URL
+@CrossOrigin(origins = "https://lively-lollipop-255c7d.netlify.app") // Replace with your React app's URL
 @RequestMapping("/terrains")
 public class TerrainController {
 

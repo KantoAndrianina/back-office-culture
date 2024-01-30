@@ -10,7 +10,7 @@ import com.example.myapp.Services.*;
 import com.example.myapp.Models.*;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://lively-lollipop-255c7d.netlify.app")
 @RequestMapping("/cultures")
 public class CultureController {
     @Autowired
