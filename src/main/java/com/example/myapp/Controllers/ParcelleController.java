@@ -11,6 +11,7 @@ import java.util.List;
 import java.util.Optional;
 
 @RestController
+@CrossOrigin(origins = "https://lively-lollipop-255c7d.netlify.app")
 @RequestMapping("/parcelles")
 public class ParcelleController {
 

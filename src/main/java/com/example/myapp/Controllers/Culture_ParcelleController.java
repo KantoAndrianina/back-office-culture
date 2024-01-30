@@ -8,6 +8,7 @@ import com.example.myapp.Services.*;
 import com.example.myapp.Models.*;
 
 @RestController
+@CrossOrigin(origins = "https://lively-lollipop-255c7d.netlify.app")
 @RequestMapping("/culture_parcelle")
 public class Culture_ParcelleController {
     @Autowired

@@ -10,6 +10,7 @@ import com.example.myapp.Models.*;
 import com.example.myapp.Services.Photo_TerrainService;
 
 @RestController
+@CrossOrigin(origins = "https://lively-lollipop-255c7d.netlify.app")
 @RequestMapping("/photo")
 public class Photo_TerrainController {
     @Autowired
